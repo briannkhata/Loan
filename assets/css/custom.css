@@ -1,0 +1,331 @@
+/* ------------------------------------------------------------------------------
+ *
+ *  # Custom
+ *
+ *  Custom styles for theme
+ *
+ * ---------------------------------------------------------------------------- */
+.panel-second-title {
+	margin-bottom: 28px;
+}
+
+.clear-padding-left {
+	padding-left: 0;
+}
+
+.clear-padding-right {
+	padding-right: 0;
+}
+
+
+
+.custom-no-ui .custom-no-ui-bg-grey {
+	background-color: #f1f1f1;
+}
+
+.custom-no-ui sup {
+	font-size: 60%;
+}
+
+.custom-no-ui-lg .noUi-background {
+	background-color: #f1f1f1;
+}
+
+.custom-no-ui-lg .custom-no-ui-slider {
+	width: 40%;
+	position: absolute;
+	right: 20px;
+	top: 27px;
+}
+
+.custom-no-ui-sm .noUi-background {
+	background-color: white;
+}
+
+.custom-no-ui-sm .val-demo {
+	font-size: 40px;
+}
+
+.custom-no-ui-lg .val-demo {
+	font-size: 55px;
+}
+
+.custom-no-ui-sm .panel-title {
+	font-size: 23px;
+}
+
+.custom-no-ui-sm .panel-body h6 {
+	font-size: 13px;
+}
+
+
+
+.report-head {
+	overflow: hidden;
+	overflow-x: auto;
+	padding: 3px 18px 22px;
+	margin-bottom: 22px;
+	background-color: #eeeeee;
+	border-radius: 3px;
+}
+
+.separator-vertical {
+	display: inline-block;
+	height: 36px;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-right: 10px;
+	float: left;
+	border-left: solid 2px #999;
+}
+
+.report-head .report-main-title {
+	margin-bottom: 15px;
+	min-width: 500px;
+}
+
+.report-head table {
+	min-width: 500px;
+}
+
+.report-head th {
+	padding-right: 18px;
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+
+.report-head-title {
+	font-size: 14px;
+}
+
+.report-head-sum {
+	padding-right: 30px;
+	font-size: 20px;
+}
+
+.report-head-sum sup {
+	top: -4px;
+}
+
+.report-date-range {
+	margin: 0 0 30px 0;
+	float: left;
+	clear: both;
+}
+
+.report-notice {
+	font-size: 14px;
+}
+
+.report-view .btn {
+	font-size: 12px;
+}
+
+.report-view select {
+	float: left;
+}
+
+
+
+.settings-accordion .panel-heading {
+	padding: 0px;
+}
+
+.settings-accordion .panel-heading .panel-title > a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding: 15px 20px;
+	background-color: white;
+}
+
+.settings-accordion .panel-heading .panel-title > a.collapsed {
+	background-color: white;
+}
+
+.settings-accordion .panel-heading .panel-title > a {
+	background-color: #f2f2f2;
+}
+
+.settings-accordion.panel-group .panel + .panel {
+	margin-top: 0;
+	border-top: none;
+}
+
+.checkers {
+	margin-bottom: 10px;
+}
+
+.checkers  a {
+	margin-right: 15px;
+	color: #333;
+}
+
+.checkers  a:hover {
+	border-bottom: solid 2px #ffa600;
+}
+
+.checkbox-inline.right-margin {
+	margin-left: 0;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.checkbox-inline.bottom-margin {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+
+
+.custom-progress-container {
+	text-align: center;
+	width: 174px;
+	margin-right: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.custom-progress-container > h4 {
+	margin-bottom: 24px;
+}
+
+.custom-progress-counter {
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.data-list {
+	margin-top: 17px;
+}
+
+.data-list i {
+	position: relative;
+	top: -2px;
+	margin-right: 2px;
+	font-size: 6px;
+	color: #a6a6a6;
+}
+
+.data-list span {
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+
+
+.settings-form-table .editable-click, .settings-form-table a.editable-click, .settings-form-table .editable-click:hover, .settings-form-table a.editable-click:hover {
+	color: #333;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.settings-form-table a.editable-empty, .settings-form-table a.editable-empty:hover, .settings-form-table a.editable-empty:focus {
+	text-decoration: none;
+	border-bottom: none;
+	color: #F44336;
+}
+
+
+
+.extra-container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.info-box {
+	border-radius: 3px;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.info-box .sum {
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 14px;
+}
+
+.info-box .btn {
+	margin-bottom: 8px;
+}
+
+.report-chart-menu {
+	margin-right: 15px;
+}
+
+.countries-list-title {
+	margin-bottom: 5px;
+}
+
+.country-list .country-icon {
+	margin-right: 15px;
+}
+
+.country-list tr:first-child td {
+	border-top: none;
+}
+
+.country-icon {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.country-name {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-top: 6px;
+}
+
+.country-icon img {
+	display: block;
+}
+
+
+
+.chat-frame-panel-body {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.chat-frame-panel-body.conversation-panel {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.chat-frame-panel-body.conversation-panel .chat-list {
+	padding-right: 10px;
+}
+
+
+
+.messages-page-title {
+	padding-left: 10px;
+}
+
+
+
+.has-feedback label ~ .form-control-feedback-facebook {
+	top: 26px;
+}
+
+.form-control-feedback-linkedin {
+	top: -2px;
+}
+
+
+@media (min-width: 769px){
+	.navbar-nav {
+		margin-left: 0;
+	}
+
+	.nav-tabs.nav-tabs-bottom.custom-border > li.active > a:after {
+		background-color: #26A69A;
+	}
+}

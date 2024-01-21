@@ -12,7 +12,7 @@ class M_Client extends CI_Model {
 			return $this->db->order_by('client_id','DESC')
 					->where('users.deleted',0)
 			        ->join('users','users.user_id = clients.user_id')
-			       ->get('clients');
+			       ->get('clients')->result_array();
 		}
 
 		 function get_client($update_id)

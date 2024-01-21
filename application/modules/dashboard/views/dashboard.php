@@ -31,7 +31,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                  <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_wallet)),2);?></h3>
+                                  <?php echo  $currency.' '.number_format($total_wallet,2);?></h3>
                                 My Wallet
                               </div>
 
@@ -53,7 +53,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                  <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_loans->row()->balance)),2);?></h3>
+                                  <?php echo  $currency.' '.number_format($total_loans->row()->balance,2);?></h3>
                                         </h3>
                                 Loans
                               </div>
@@ -74,7 +74,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                  <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_overdueloans->row()->balance)),2);?></h3>
+                                  <?php echo  $currency.' '.number_format($total_overdueloans->row()->balance,2);?></h3>
 
                                 </h3>
                                Overdue Loans
@@ -156,7 +156,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$payments->row()->payment_amount)),2);?>
+                                <?php echo  $currency.' '.number_format($payments->row()->payment_amount,2);?>
                                       </h3>
                                 Payments
                               </div>
@@ -177,7 +177,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                              <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$missed_payments->row()->balance)),2);?>
+                              <?php echo  $currency.' '.number_format($missed_payments->row()->balance,2);?>
                                                 </h3>
                                 Missed Payments
                               </div>
@@ -220,7 +220,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                              <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_debts->row()->tr_amount)),2);?></h3>
+                              <?php echo  $currency.' '.number_format($total_debts->row()->tr_amount,2);?></h3>
 
                                 </h3>
                                 Wallet Debts
@@ -242,7 +242,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                  <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_credits->row()->tr_amount)),2);?></h3>
+                                  <?php echo  $currency.' '.number_format($total_credits->row()->tr_amount,2);?></h3>
                                 Wallet Credits
                               </div>
 
@@ -262,7 +262,7 @@
                                 </div>
 
                                 <h3 class="no-margin">
-                                  <?php echo  $currency.' '.number_format(sprintf('%0.2f', preg_replace("/[^0-9.]/", "",$total_transfers->row()->tr_amount)),2);?></h3>
+                                  <?php echo  $currency.' '.number_format($total_transfers->row()->tr_amount,2);?></h3>
                                 Wallet Transfers
                               </div>
 
@@ -273,4 +273,4 @@
                           </div>
                         </div>
 
-                        <div id="chart_div"></div>
+                       <!-- <div id="chart_div"></div>-->
